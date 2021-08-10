@@ -17,6 +17,9 @@ Predict 3 months of item sales at different stores
 - Make predictions
 - MAPE,SMAPE as evaluation metric
 
+## Result:
+
+
 ## Data description:
 
     - date: The date of sale
@@ -26,6 +29,6 @@ Predict 3 months of item sales at different stores
 
 ## References:
 
-https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
-https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
-http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/
+- https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
+- https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+- http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/
