@@ -2,9 +2,14 @@
 
 ## Objective: 
 
-Predict 3 months of item sales at different stores
+Predicted 3 months of sales for 50 different items in 10 different stores from past 5-year sales data using time series techniques.
 
 ## Approach:
+
+- Checked for stationarity, trend and seasonality using ADF-test (Augmented Dickey-Fuller), KPSS-test & Decompose Plot. 
+- Models Applied AR, MA, ARMA, ARIMA. For ARIMA (p,d,q) parameters p and q, PACF-test (Partial Autocorrelation function) and ACF-test (Autocorrelation function) used. 
+- Time series made stationary by Differencing (d). 
+- RMSE and MAPE used for evaluation metric. 
 
 - Visualise the Time series
 - Decomposing into trend, seasonal, cyclical and noise components
