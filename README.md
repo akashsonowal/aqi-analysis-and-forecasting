@@ -2,7 +2,7 @@
 
 ## Objective: 
 
-Predicted 3 months of sales for 50 different items in 10 different stores from past 5-year sales data using time series techniques.
+To predict 3 months of sales for 50 different items at 10 different stores from 5 years of store-item sales data.
 
 ## Approach:
 
