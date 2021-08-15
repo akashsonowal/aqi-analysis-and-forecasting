@@ -2,7 +2,7 @@
 
 ## Objective: 
 
-To predict 3 months of sales for 50 different items at 10 different stores from 5 years of store-item sales data.
+To analyse the impact of COVID'19 in Air Quality Index of major cities in India and also forecast India's Average AQI for 2021. 
 
 ## Approach:
 
