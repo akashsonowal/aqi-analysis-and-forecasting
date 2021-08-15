@@ -17,11 +17,11 @@ To analyse the impact of COVID'19 in Air Quality Index of major cities in India 
 
     - city: cities of India
     - date: date of readings
-    - PM 2.5: Particulate Matter 2.5-micrometer in ug/m<sup>3</sup>
-    - PM 10: Particulate Matter 10-micrometer in ug/m<sup>3</sup>
-    - NO: Nitric Oxide in ug/m<sup>3</sup>
-    - NO<sub>2</sub>: Nitric Dioxide in ug/m<sup>3</sup>
-    - NO<sub>x</sub>: Any Nitric x-oxide in ppb
-    - NH<sub>3</sub>: Ammonia in ug/m<sup>3</sup>
-    - CO: Carbon Monoxide in mg/m<sup>3</sup>
-    - SO<sub>2</sub>: Sulphur Dioxide in ug/m<sup>3</sup>
+    - PM 2.5: Particulate Matter 2.5-micrometer in ug/m3
+    - PM 10: Particulate Matter 10-micrometer in ug/m3
+    - NO: Nitric Oxide in ug/m3
+    - NO2: Nitric Dioxide in ug/m3
+    - NOx: Any Nitric x-oxide in ppb
+    - NH3: Ammonia in ug/m3
+    - CO: Carbon Monoxide in mg/m3
+    - SO2: Sulphur Dioxide in ug/m3
