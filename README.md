@@ -1,4 +1,4 @@
-# store-item-demand-forecasting
+# Air Quality Index Analysis and Forecasting
 
 ## Objective: 
 
