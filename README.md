@@ -6,34 +6,22 @@ To analyse the impact of COVID'19 in Air Quality Index of major cities in India 
 
 ## Approach:
 
-- Checked for stationarity, trend and seasonality using ADF-test (Augmented Dickey-Fuller), KPSS-test & Decompose Plot. 
-- Models Applied AR, MA, ARMA, ARIMA. For ARIMA (p,d,q) parameters p and q, PACF-test (Partial Autocorrelation function) and ACF-test (Autocorrelation function) used. 
-- Time series made stationary by Differencing (d). 
-- RMSE and MAPE used for evaluation metric. 
-
-- Visualise the Time series
-- Decomposing into trend, seasonal, cyclical and noise components
-- Analyze the seasonality of a Time Series: additive and multiplicative.
-- Check stationarity of data - Rolling Mean, ADCF Test(Augmented Dickey–Fuller test)
-- Statinarize Time series - first differencing
-- Plot ACF/PACF charts and find optimal parameters
-- Build Time series models according to data - AR, MA, ARIMA, SARIMA
-- Plot Residual distribution
-- Make predictions
-- MAPE,SMAPE as evaluation metric
+- Calculated the correlation of different pollutants with AQI, studied AQI trend during Covid-19 lockdown of major polluted cities.
+- Checked for stationarity, trend and seasonality of India's Average AQI using ADF-test (Augmented Dickey-Fuller) & Decompose Plot.
+- Used autoarima to find the parameters of SARIMA model. 
 
 ## Result:
+- Achieved RMSE of 12.5 in the test data and forecasted AQI for the year 2021.
 
+## [Data](https://www.kaggle.com/rohanrao/air-quality-data-in-india) description:
 
-## Data description:
-
-    - date: The date of sale
-    - store: This is the store number
-    - item: This is the item number
-    - sales: Sales made on that particular day
-
-## References:
-
-- https://towardsdatascience.com/what-is-time-series-decomposition-and-how-does-it-work-9b67e007ae90
-- https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
-- http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/
+    - city: cities of India
+    - date: date of readings
+    - PM 2.5: Particulate Matter 2.5-micrometer in ug/m<sup>3</sup>
+    - PM 10: Particulate Matter 10-micrometer in ug/m<sup>3</sup>
+    - NO: Nitric Oxide in ug/m<sup>3</sup>
+    - NO<sub>2</sub>: Nitric Dioxide in ug/m<sup>3</sup>
+    - NO<sub>x</sub>: Any Nitric x-oxide in ppb
+    - NH<sub>3</sub>: Ammonia in ug/m<sup>3</sup>
+    - CO: Carbon Monoxide in mg/m<sup>3</sup>
+    - SO<sub>2</sub>: Sulphur Dioxide in ug/m<sup>3</sup>
