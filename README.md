@@ -7,8 +7,8 @@ To analyse the impact of COVID'19 in Air Quality Index of major cities in India 
 ## Approach:
 
 - Calculated the correlation of different pollutants with AQI, studied AQI trend during Covid-19 lockdown of major polluted cities.
-- Checked for stationarity, trend and seasonality of India's Average AQI using ADF-test (Augmented Dickey-Fuller) & Decompose Plot.
-- Used autoarima to find the parameters of SARIMA model. 
+- Checked for stationarity, trend and seasonality of India's Average AQI using ADF-test (Augmented Dickey-Fuller) with 95% confidence & Decompose Plot.
+- Used ACF, PACF plots to determine the parameters of final SARIMA(p=0,d=1,q=2)x(P=1,D=0,Q=1,s=12) model. 
 
 ## Result:
 - Achieved RMSE of 12.5 in the test data and forecasted AQI for the year 2021.
